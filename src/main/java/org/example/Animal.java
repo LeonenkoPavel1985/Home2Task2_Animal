@@ -36,7 +36,7 @@ public class Animal {
         this.age = age;
     }
     public String toString() {
-       return "Name: " + name + ", " + "weight: " + weight + ", " + "age: " +  age + ".";
+       return "Name - " + name + ", " + "weight - " + weight + " kilogram , " + "age - " +  age + " years.";
     }
     void doSound() {
         System.out.println("Sound:" + sound);
